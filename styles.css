@@ -110,6 +110,16 @@ body {
   font-family: monument;
   font-size: 4vw;
   color: #fff;
+  margin-bottom: 2vh;
+}
+
+#over1 h2 {
+  font-size: 1vw;
+  color: #fff;
+  padding: 1vw;
+  margin-bottom: 2vh;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 #over2 {
@@ -118,4 +128,14 @@ body {
   justify-content: space-between;
   align-items: center;
   border-top: 2px solid #fff;
+  padding: 3vh 1vh;
+}
+
+#over2 h3 {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+#over2 i {
+  font-size: 2vw;
 }
