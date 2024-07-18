@@ -74,7 +74,7 @@ body {
   height: 90%;
   width: 100%;
   background-color: whitesmoke;
-  padding: 3vw 5vw;
+  padding: 3vw 3vw;
   position: relative;
 }
 
@@ -138,4 +138,27 @@ body {
 
 #over2 i {
   font-size: 2vw;
+}
+#scrollable {
+  height: 30vh;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#container {
+  height: 100%;
+  width: 105%;
+  display: inline-block;
+  padding: 1vw;
+}
+
+#scrollable img {
+  height: 23vh;
+  width: 23vh;
+  margin: 2vw;
+  border-radius: 50%;
+  object-position: top;
+  object-fit: cover;
 }
